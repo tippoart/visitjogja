@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+body {
+    display: flex;
+    overflow-x: hidden;
+  
+}
+
+nav {
+    background: #212121;
+    width: 15% ;
+    color: white;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+    z-index: 1;
+    
+    
+   
+    
+}
+
+nav p span {
+    font-weight: 900;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}
+
+nav ul li {
+    padding: 15px;
+
+}
+
+nav ul li.dash {
+
+    transition: background-color 0.1s ease, color 0.1s ease;
+    background: white;
+    width: 200%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+}
+
+nav ul li.dash a {
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+nav .button {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.30);
+    font-weight: 900;
+    padding: 6px;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+.konten {
+    width: 90%;
+
+}
+
+.konten h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+}
+
+.konten table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 3px solid #212121;
+}
+
+.konten th,
+td {
+    padding: 10px;
+    border-right: 3px solid #212121;
+    text-align: center;
+    font-weight: 900;
+
+}
+
+.konten th {
+    background: #212121;
+    color: white;
+}
+
+
+.konten .table {
+    padding: 20px;
+}
+
+.konten table tr td .ubah {
+    background-color: rgb(110, 132, 135);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 5px;
+}
+
+.konten table tr td .detail {
+    background-color: rgb(113, 116, 177);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 5px;
+}
+
+.konten table tr td .detail:hover {
+    background-color: rgb(129, 133, 200);
+}
+.konten table tr td .ubah:hover{
+    background-color: rgb(131, 156, 159);
+}
+.konten table tr td .hapus {
+    background-color: rgb(168, 101, 101);
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 100;
+
+}
+.konten table tr td .hapus:hover{
+    background-color: rgb(197, 111, 111);
+}
+.konten .table .add_data {
+    border-radius: 10px;
+    background: #719cac;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    position: relative;
+    left: 82%;
+  
+    
+    
+}
+
+.konten table tr td {
+    font-size: 13px;
+
+ 
+}
+.konten table tr .isi{
+    border-bottom:  3px solid #212121;
+}

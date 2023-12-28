@@ -1,0 +1,600 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    background-image: url('../img/merapi3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    position: relative;
+    overflow: hidden;
+}
+
+.head::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background: linear-gradient(0deg, #212121 10%, rgba(37, 37, 37, 0)100%);
+    backdrop-filter: blur(0.5px);
+    z-index: 0;
+
+}
+
+.konten {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    height: 110vh;
+    flex-direction: column;
+    color: white;
+
+}
+
+.imgkonten {
+    color: white;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 90px;
+    gap: 50px;
+}
+
+.imgkonten .data {
+    display: flex;
+    gap: 40px;
+
+}
+
+.imgkonten .data .img {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.imgkonten .data .img img {
+    object-fit: cover;
+    width: 243.685px;
+    height: 258.342px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.imgkonten .data .img2 img {
+    object-fit: cover;
+    width: 282.161px;
+    height: 538px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.imgkonten .artikel h4 {
+    font-weight: 900;
+}
+
+.imgkonten .artikel button {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.30);
+    color: white;
+    border: none;
+    width: 169px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+.konten button {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    width: 165px;
+    height: 42px;
+    padding: 17px 6px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.30);
+    border: none;
+    line-height: 2.5px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    bottom: 35px;
+    z-index: 1;
+}
+
+.konten .visit {
+    color: #FFF;
+    font-size: 96px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+}
+
+.konten .des {
+    position: relative;
+    bottom: 45px;
+    text-align: center;
+    z-index: 1;
+}
+
+.konten .visit h3 {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    position: relative;
+    right: 90px;
+    
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+nav p {
+    font-size: 20px;
+    position: relative;
+    left: 90px;
+    color: #FFF;
+
+}
+
+nav p span {
+    font-weight: bolder;
+}
+
+nav ul .keluar {
+    background-color: rgba(255, 255, 255, 0.30);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    width: 88px;
+    height: 35px;
+    padding: 17px 6px;
+    border-radius: 10px;
+    border: none;
+    line-height: 2.5px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: none;
+}
+
+
+#menu-list #gayis a {
+    position: relative;
+    top: 3.5px;
+
+}
+
+#menu-list #gayis hr {
+    margin: 0;
+    border: none;
+    border-top: 3px solid #ffffff;
+    width: 50%;
+    position: relative;
+    left: 20px;
+    top: 4px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+
+.populer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.populer hr {
+    margin: 0;
+    border: none;
+    border-top: 4px solid #ffffff;
+    width: 120px;
+    height: 4px;
+    flex-shrink: 0;
+    position: relative;
+    left: 1px;
+    top: 5px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.populer h2 {
+    color: #ffffff;
+    font-weight: 900;
+    text-align: center;
+}
+
+.populer .img {
+    display: flex;
+    position: relative;
+}
+
+.populer .img::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 28%;
+    background: linear-gradient(0deg, #212121 5%, rgba(37, 37, 37, 0)80%);
+    backdrop-filter: blur(1px);
+    z-index: 0;
+
+}
+
+.populer .img .cardimg {
+    overflow: hidden;
+    height: 72vh;
+    margin-top: 50px;
+
+}
+
+.populer .img .cardimg img {
+    width: 265px;
+    height: 425.115px;
+    flex-shrink: 0;
+    object-fit: cover;
+    transition: transform 2s,  1s;
+    position: relative;
+    bottom: 120px;
+
+
+}
+.populer .img .cardimg img:hover {
+    transform: scale(1.1);
+}
+.populer .img .cardimg .judul {
+    position: relative;
+    top: 260px;
+    padding: 10px;
+    z-index: 2;
+}
+.populer .img .cardimg .judul  h5{
+  
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: normal;
+}
+.populer .img .cardimg .judul button {
+    border: none;
+    width: 120px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+
+
+.quote {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.quote img {
+
+    position: absolute;
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    left: 29%;
+    margin-top: 12em;
+    transform: translate(-50%, -50%);
+}
+
+.quote h1 {
+    font-weight: 600;
+
+}
+
+.quote p {
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+footer {
+    background: #171717;
+    color: rgb(254, 254, 254);
+    height: 363px;
+    flex-shrink: 0;
+    margin-top: 120px;
+    padding-left: 50px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer h2 {
+    font-weight: 700;
+}
+
+footer .main1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 11%;
+}
+
+footer .main1 .logo {
+    line-height: 92.25%;
+}
+
+footer .main1 .logo p {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+footer .main1 .logo h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+footer .main1 .kotak {
+    background: white;
+    width: 205px;
+    height: 200px;
+}
+
+footer .link {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 62px;
+
+}
+
+footer .link ul {
+    position: relative;
+    right: 30px;
+}
+
+footer .link ul li {
+    list-style: none;
+}
+
+footer .link ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+}
+
+footer .link ul li .beranda {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+footer .link .kotak {
+    background: white;
+    width: 310px;
+    height: 128px;
+}
+
+footer hr {
+    margin: 0;
+    border: none;
+    border-left: 4px solid #ffffff;
+    height: 80%;
+    position: relative;
+    left: 20px;
+    top: 4px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    right: 25px;
+}
+
+footer form h2 {
+    font-weight: 900;
+}
+
+footer form input {
+    width: 400px;
+    height: 38px;
+    border: none;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.50);
+    padding: 10px;
+    outline: none;
+    color: #FFF;
+}
+
+footer form input::placeholder {
+    color: white;
+
+}
+
+footer form textarea {
+    width: 400px;
+    height: 123px;
+    border: none;
+    background: rgba(217, 217, 217, 0.50);
+    resize: none;
+    padding: 10px;
+    outline: none;
+    color: #FFF;
+}
+
+footer form textarea::placeholder {
+    color: white;
+}
+
+footer form button {
+    width: 120px;
+    height: 31px;
+    border: none;
+    border-radius: 10px;
+    background: #02b3ff;
+    color: white;
+    position: relative;
+    left: 280px;
+
+}
+
+@media only screen and (max-width: 767px) {
+   
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 70px;
+        width: 100%;
+        top: 3px;
+        left: -1px;
+        position:absolute;
+        background-color: #212121;
+        z-index: 2;
+        padding: 20px;
+       
+    }
+    nav p {
+        position: relative;
+        left: -1%;
+    }
+
+    #menu {
+        display: block;
+
+    }
+
+
+    nav .hidden {
+        display: none;
+
+    }
+
+    .head {
+        height: 45vh;
+        background-size: 100%;
+    }
+
+    .konten {
+        padding: 20px;
+        bottom: 100px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .visit p{
+        font-size:35px;
+    }
+    .konten .visit h3 {
+        font-size: 34px;
+    }
+
+    .konten .des {
+        font-size: 9px;
+    }
+
+    .imgkonten {
+       flex-direction: column;
+       padding: 20px;
+    }
+
+    .imgkonten .data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .populer .img {
+        flex-direction: column;
+    }
+
+    .quote p {
+        font-size: 15px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px;
+        height: auto;
+    }
+
+    footer .main1{
+        display: none;
+    }
+
+    footer .link .kotak{
+        display: none;
+    }
+    footer .link ul{
+      right: 10px;
+      display: flex;
+      gap: 20px;
+
+    }
+
+    footer form  {
+        width: 200px;
+        right: 90px;
+       
+    }
+
+   
+   footer form button {
+   left: 6px;
+   } 
+   
+
+
+}

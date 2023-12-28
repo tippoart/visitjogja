@@ -1,0 +1,677 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head {
+    background-image: url('../img/gunung2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.head::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #212121 10%, rgba(37, 37, 37, 0)100%);
+    backdrop-filter: blur(11px);
+    z-index: 0;
+
+
+}
+
+
+nav {
+    display: flex;
+    padding: 1px;
+    justify-content: space-between;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    position: relative;
+    right: 109px;
+    bottom: 0.5px;
+
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+nav p {
+    font-size: 20px;
+    position: relative;
+    top: 1.5px;
+    left: 89px;
+    color: #FFF;
+    z-index: 1;
+
+
+}
+
+nav p span {
+    font-weight: bolder;
+    z-index: 1;
+}
+
+nav ul .keluar {
+    background-color: rgba(255, 255, 255, 0.30);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    width: 88px;
+    height: 35px;
+    padding: 17px 6px;
+    border-radius: 10px;
+    border: none;
+    line-height: 2.5px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    position: relative;
+    top: 2px;
+}
+
+#menu {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: none;
+    z-index: 1;
+
+}
+
+
+#menu-list .gayis a {
+    position: relative;
+    top: 3.5px;
+    z-index: 1;
+
+}
+
+#menu-list .gayis hr {
+    margin: 0;
+    border: none;
+    border-top: 3px solid #ffffff;
+    width: 50%;
+    position: relative;
+    left: 17px;
+    top: 4px;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.konten {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    height: 130vh;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    bottom: 70px;
+
+}
+
+.konten button {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    width: 165px;
+    height: 42px;
+    padding: 17px 6px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.30);
+    border: none;
+    line-height: 2.5px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    top: -15px;
+    z-index: 1;
+}
+
+.konten h3 {
+    z-index: 100;
+    color: #f8f8f8;
+    font-weight: 900;
+}
+
+.konten p {
+    z-index: 1;
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    right: 19px;
+}
+
+.konten .card1 {
+    width: 87%;
+    padding: 90px;
+    height: 518px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(179, 179, 179, 0.40);
+    padding: 60px;
+    gap: 40px;
+}
+
+.konten .card1 img {
+    object-fit: cover;
+    width: 330px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+.section {
+    display: flex;
+    padding: 100px;
+    gap: 20px;
+    z-index: 0;
+    position: relative;
+    bottom: 50%;
+    height: 130vh;
+}
+
+.section::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    top: 80%;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(180deg, rgba(33, 33, 33, 0.00) 20%, #212121 100%);
+    backdrop-filter: blur(0.5px);
+    z-index: 0;
+}
+
+.section .img1 {
+    color: #FFF;
+    padding: 10px;
+
+}
+
+.section .img1 h4 {
+    font-weight: 900;
+    z-index: 1;
+}
+
+.section .img1 h4,
+p {
+    position: relative;
+    bottom: 33%;
+    padding: 20px;
+    font-size: auto;
+
+}
+
+.section .img1 .tanggal {
+    position: relative;
+    bottom: 36%;
+    z-index: 1;
+
+}
+
+.section .img1 hr {
+    margin: 0;
+    border: none;
+    border-top: 5px solid #F00;
+    width: 20%;
+    position: relative;
+    left: 25px;
+    bottom: 35%;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.section .img1 img {
+    object-fit: cover;
+    width: 538px;
+    height: 545px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.section .imgkedua {
+    display: flex;
+    gap: 20px;
+    color: white;
+
+}
+
+.section .imgkedua .imgkedua1 img {
+    object-fit: cover;
+    width: 257px;
+    height: 257px;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+}
+
+.section .imgkedua .imgkedua1 .titlewis {
+    position: relative;
+    bottom: 23%;
+    padding: 15px;
+    font-weight: 900;
+}
+
+.section .imgkedua .imgkedua1 p {
+    position: relative;
+    bottom: 30%;
+    z-index: 1;
+}
+
+.section .imgkedua .imgkedua1 h5 {
+    z-index: 1;
+}
+
+.section .section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section .imgkedua .imgkedua1 hr {
+    margin: 0;
+    border: none;
+    border-top: 5px solid #F00;
+    width: 20%;
+    position: relative;
+    left: 20px;
+    bottom: 26%;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.section .imgkedua .imgkedua1 h4 {
+    z-index: 1;
+}
+
+.section #card2 {
+    position: relative;
+    bottom: 27.5%;
+
+}
+
+/* #card1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 53%;
+    top: 40%;
+    width: 45%;
+    height: 10%;
+    background: linear-gradient(180deg, rgba(33, 33, 33, 0.00) 20%, #212121 100%);
+    backdrop-filter: blur(0.5px);
+    z-index: 0;
+} */
+
+
+.main {
+    display: flex;
+    color: white;
+    padding-left: 110px;
+    padding-top: 40px;
+    height: 70%;
+
+}
+
+.main .main1 {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.main .main1 img {
+    width: 247px;
+    height: 277px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.main .main1 .artikel {
+    padding: 20px;
+
+}
+
+.main .main1 .artikel p {
+    position: relative;
+    top: -2%;
+    right: 16px;
+}
+
+.main .main1 .artikel .pesona {
+    position: relative;
+    top: -15%;
+    right: 16px;
+}
+
+.main .main1 .artikel a {
+    position: relative;
+    top: -17%;
+
+    color: #FFF;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.30);
+    font-weight: 700;
+    flex-shrink: 0;
+    text-decoration: none;
+    padding: 8px;
+}
+
+
+footer {
+    background: #171717;
+    color: white;
+    height: 363px;
+    flex-shrink: 0;
+    margin-top: 120px;
+    padding-left: 50px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer h2 {
+    font-weight: 700;
+}
+
+footer .main1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5%;
+}
+
+footer .main1 .logo {
+    line-height: 92.25%;
+}
+
+footer .main1 .logo p {
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+footer .main1 .logo h2 {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+footer .main1 .kotak {
+    background: white;
+    width: 205px;
+    height: 200px;
+}
+
+footer .link {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 62px;
+
+}
+
+footer .link ul {
+    position: relative;
+    right: 30px;
+}
+
+footer .link ul li {
+    list-style: none;
+}
+
+footer .link ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+}
+
+footer .link ul li .beranda {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+footer .link .kotak {
+    background: white;
+    width: 310px;
+    height: 128px;
+}
+
+footer hr {
+    margin: 0;
+    border: none;
+    border-left: 4px solid #ffffff;
+    height: 80%;
+    position: relative;
+    left: 20px;
+    top: 4px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    right: 25px;
+}
+
+footer form h2 {
+    font-weight: 900;
+}
+
+footer form input {
+    width: 400px;
+    height: 38px;
+    border: none;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.50);
+    padding: 10px;
+    outline: none;
+    color: #FFF;
+}
+
+footer form input::placeholder {
+    color: white;
+
+}
+
+footer form textarea {
+    width: 400px;
+    height: 123px;
+    border: none;
+    background: rgba(217, 217, 217, 0.50);
+    resize: none;
+    padding: 10px;
+    outline: none;
+    color: #FFF;
+}
+
+footer form textarea::placeholder {
+    color: white;
+}
+
+footer form button {
+    width: 120px;
+    height: 31px;
+    border: none;
+    border-radius: 10px;
+    background: #02b3ff;
+    color: white;
+    position: relative;
+    left: 280px;
+
+}
+
+@media only screen and (max-width: 767px) {
+    nav {
+        align-items: center;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 70px;
+        width: 100%;
+        position: absolute;
+        bottom: 70%;
+        background-color: #212121;
+        z-index: 3;
+        left: -1px;
+        padding: 20px;
+        top: 2px;
+        height:260px;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    nav p {
+        position: relative;
+        left: -1%;
+    }
+
+
+    nav .hidden {
+        display: none;
+
+    }
+
+    .head {
+        background-size: 100%;
+        height: 135vh;
+    }
+
+    .head .konten .card1 {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head .konten .card1 .berburu {
+        font-size: 12px;
+    }
+
+    .section {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: 290vh;
+    }
+
+    .section .img1 img {
+        width: 250px;
+        height: 360px;
+    }
+
+    .section .imgkedua {
+        flex-direction: column;
+    }
+
+    .section .section2 {
+        position: relative;
+        bottom: 17%;
+    }
+
+    .section .section2 .imgkedua {
+        position: relative;
+        top: 10%;
+    }
+
+    .section::after {
+        display: none;
+    }
+
+    .main {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .main .main1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .main1 img {
+        width: 350px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px;
+        height: auto;
+    }
+
+    footer .main1 {
+        display: none;
+    }
+
+    footer .link .kotak {
+        display: none;
+    }
+
+    footer .link ul {
+        right: 10px;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    footer form {
+        width: 200px;
+        right: 90px;
+
+    }
+
+
+    footer form button {
+        left: 6px;
+    }
+
+}

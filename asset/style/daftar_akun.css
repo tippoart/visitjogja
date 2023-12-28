@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+
+
+}
+
+body {
+    background-color: #212121;
+    ;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.text-center span {
+    font-weight: bold;
+}
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    flex-direction: column;
+
+}
+.form a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.form a span{
+    font-weight: 900;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.20);
+    gap: 15px;
+    width: 35%;
+    height: 80%;
+    position: relative;
+    top: 30px;
+
+
+}
+
+form h1 {
+
+    position: relative;
+    top: -10px;
+    color: white;
+    font-weight: 600;
+}
+
+form input {
+    outline: none;
+    padding: 14px;
+    width: 340px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.50);
+    border: none;
+    color: white;
+   
+    
+}
+
+form input::placeholder {
+    color: white;
+    padding: 10px;
+    
+}
+
+button{
+    outline: none;
+    padding: 14px;
+    width: 340px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: #6BB1CF;
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+form  i {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    right: 15%;
+    bottom: 44%;
+    transition: transform 1s, 1s;
+    cursor: pointer;
+}
+
+form i:hover {
+    transform: scale(1.2);
+}
+form .bx {
+    bottom: 36%;
+}
+#hidePass {
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+
+form {
+        width: 100%;
+        
+    
+    }
+
+
+}

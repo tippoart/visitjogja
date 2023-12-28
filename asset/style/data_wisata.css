@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+.head .bg {
+    object-fit: cover;
+   height: 100vh;
+   width: 100%;
+   position: absolute;
+}
+.head::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #212121 10%, rgba(37, 37, 37, 0)100%);
+    backdrop-filter: blur(11px);
+    z-index: 0;
+}
+
+
+nav {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+  
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    position: relative;
+    right: 109px;
+    bottom: 0.5px;
+
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+nav p {
+    font-size: 20px;
+    position: relative;
+    top: 1.5px;
+    left: 89px;
+    color: #FFF;
+    z-index: 1;
+
+
+}
+
+nav p span {
+    font-weight: bolder;
+    z-index: 1;
+}
+
+nav ul .keluar {
+    background-color: rgba(255, 255, 255, 0.30);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    width: 88px;
+    height: 35px;
+    padding: 17px 6px;
+    border-radius: 10px;
+    border: none;
+    line-height: 2.5px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    position: relative;
+    top: 2px;
+}
+
+#menu {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: none;
+    z-index: 1;
+
+}
+
+
+#menu-list .gayis a {
+    position: relative;
+    top: 3.5px;
+    z-index: 1;
+
+}
+
+#menu-list .gayis hr {
+    margin: 0;
+    border: none;
+    border-top: 3px solid #ffffff;
+    width: 50%;
+    position: relative;
+    left: 17px;
+    top: 4px;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.konten {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 70px;
+    z-index: 1;
+    padding: 30px;
+    gap: 30px;
+
+}
+
+.konten .img {
+    display: flex;
+}
+
+.konten .img img {
+    object-fit: cover;
+    width: 255px;
+    height: 323.115px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.konten h2 {
+    padding-left: 90px;
+    padding-right: 400px;
+    font-weight: 900;
+}
+
+.artikel {
+    color: #FFF;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+    bottom: 100px;
+
+}
+section {
+    position: relative;
+    bottom: 60px;
+    padding-bottom: 40px;
+}
+.komen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 81%;
+    position: relative;
+    left: 9.5%;
+    border: 4px solid #FFF;
+    padding: 15px;
+    color: white;
+    margin-top: 60px;
+}
+.komen h3{
+    padding-left: 5px;
+}
+.komen .userkomen {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.65);
+    height: 66px;
+    padding: 10px;
+}
+.komen .userkomen .isikomen {
+    position: relative;
+    bottom: 13px;
+}
+.komen form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.komen form  textarea {
+    outline: none;
+    background: rgba(255, 255, 255, 0.30);
+    height: 96px;
+    border: none;
+    resize: none;
+    padding: 10px;
+    color: #FFF;
+    width: 100%;
+}
+
+.komen form button {
+    width: 124px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #1595cb;
+    padding: 5px;
+    color: #ffffff;
+    text-align: center;
+    align-self: flex-end;
+    border: none;
+}
+
+
+.komen textarea::placeholder {
+    color: #FFF;
+    
+}
+
+@media only screen and (max-width: 767px) {
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 70px;
+        width: 100%;
+        top: 0;
+        left: -1px;
+        position:absolute;
+        background-color: #212121;
+        z-index: 2;
+        padding: 20px;
+        bottom: 50%;
+    }
+    nav p {
+        position: relative;
+        left: -1%;
+    }
+
+    #menu {
+        display: block;
+    }
+
+
+    nav .hidden {
+        display: none;
+
+    }
+
+    .head {
+        background-size: 100%;
+        height: 90vh;
+       
+    }
+
+ 
+
+     .konten {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .konten h2 {
+        padding: 20px;
+       
+
+    }
+    
+    .konten .img img {
+    
+        width: 90px;
+        height: 150px;
+    }
+
+    .artikel {
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+    .head .bg {
+       height: 70vh;
+       width: 100%;
+    }
+
+}
